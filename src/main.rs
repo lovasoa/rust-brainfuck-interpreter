@@ -1,3 +1,6 @@
+pub mod interpreter;
+
+#[cfg(not(test))]
 fn main() {
-    println!("Hello, world!")
+    interpreter::interpret("++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.");
 }
