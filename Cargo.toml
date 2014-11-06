@@ -1,0 +1,5 @@
+[package]
+
+name = "rust-brainfuck-interpreter"
+version = "0.0.1"
+authors = ["Ophir LOJKINE <pere.jobs@gmail.com>"]
